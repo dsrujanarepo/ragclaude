@@ -7,10 +7,10 @@ async def task(name, delay):
     print(f"{name} finished")
     console = Console()
     console.print(
-    f"\n[bold green]Ingestion complete![/bold green]\n"
-    f"  File      : \n"
-    f"  Document  : :s"
-)
+        f"\n[bold green]Ingestion complete![/bold green]\n"
+        f"  Task      : {name}\n"
+        f"  Document  : {name}"
+    )
 
 
 async def main():

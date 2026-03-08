@@ -219,8 +219,7 @@ def send_email(new_jobs: list):
     <table width="100%" cellpadding="0" cellspacing="0"
            style="border-collapse:collapse;border:1px solid #e0d0f0;border-radius:6px;overflow:hidden;">
       <thead>
-        <tr style="backg
-        round:#6b2d8b;">
+        <tr style="background:#6b2d8b;">
           <th style="padding:10px 12px;color:white;text-align:left;">Job Title</th>
           <th style="padding:10px 12px;color:white;text-align:left;">Location</th>
           <th style="padding:10px 12px;color:white;text-align:left;">Clearance</th>
